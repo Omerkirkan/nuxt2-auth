@@ -1,0 +1,84 @@
+body {
+    background-color: gray;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.header-nav a {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.auth-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.auth-box__header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-box__header h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.auth-box__body {
+    margin-bottom: 20px;
+}
+
+.auth-box__footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-group input {
+    width: 220px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn_primary {
+    background-color: rgb(56, 56, 151);
+    color: white;
+}
+.btn_success {
+    background-color: green;
+    color: white;
+}
